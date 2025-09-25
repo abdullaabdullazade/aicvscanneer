@@ -1,39 +1,39 @@
-# Project Name
+# AI CV Scanner
 
-Simple Python project.
+A simple Python project for scanning and analyzing CVs using the Gemini API.
 
 ## Requirements
 
-- Python 3.8 or higher
-- `pip` package manager
+* Python 3.8 or higher
+* `pip` package manager
 
+## Screenshots
 
-![Screenshots](screenshots/1.png)
-![Screenshots](screenshots/2.png)
-
+![Screenshot 1](screenshots/1.png)
+![Screenshot 2](screenshots/2.png)
 
 ## Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/abdullaabdullazade/aicvscanneer
 cd aicvscanneer
-````
+```
 
-2. Install the required packages:
+2. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file and add your Gemini API key:
+3. **Create a `.env` file** in the project root and add your Gemini API key:
 
 ```
 API_KEY=your_api_key_here
 ```
 
-> **Note:** You can get your API key from your [Gemini](https://aistudio.google.com/api-keys) account.
+> **Note:** You can get your API key from your [Gemini account](https://aistudio.google.com/api-keys).
 
 ## Running the Project
 
@@ -41,7 +41,7 @@ API_KEY=your_api_key_here
 python main.py
 ```
 
-Then open your browser at:
+Open your browser and navigate to:
 
 ```
 http://localhost:5000
@@ -49,5 +49,7 @@ http://localhost:5000
 
 ## Usage
 
-* Make sure your API key is correctly set in the `.env` file.
-* After running `main.py`, the application will be available at `localhost:5000`.
+* Ensure your API key is correctly set in the `.env` file.
+* After running `main.py`, the application will be accessible at `localhost:5000`.
+* You can now upload CVs and analyze them using the AI-powered scanner.
+
