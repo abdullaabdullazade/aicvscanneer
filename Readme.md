@@ -28,8 +28,8 @@ This project uses the **Gemini API** to read, analyze, and extract useful insigh
 1️⃣ **Clone the repository:**
 
 ```bash
-git clone https://github.com/abdullaabdullazade/aicvscanneer
-cd aicvscanneer
+git clone https://github.com/abdullaabdullazade/aicvscanner
+cd aicvscanner
 ````
 
 2️⃣ **Install dependencies:**
