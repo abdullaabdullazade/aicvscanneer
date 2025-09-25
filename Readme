@@ -1,0 +1,53 @@
+# Project Name
+
+Simple Python project.
+
+## Requirements
+
+- Python 3.8 or higher
+- `pip` package manager
+
+
+![Screenshots](screenshots/1.png)
+![Screenshots](screenshots/2.png)
+
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/abdullaabdullazade/aicvscanneer
+cd aicvscanneer
+````
+
+2. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file and add your Gemini API key:
+
+```
+API_KEY=your_api_key_here
+```
+
+> **Note:** You can get your API key from your [Gemini](https://aistudio.google.com/api-keys) account.
+
+## Running the Project
+
+```bash
+python main.py
+```
+
+Then open your browser at:
+
+```
+http://localhost:5000
+```
+
+## Usage
+
+* Make sure your API key is correctly set in the `.env` file.
+* After running `main.py`, the application will be available at `localhost:5000`.
