@@ -4,8 +4,8 @@ A simple Python project for scanning and analyzing CVs using the Gemini API.
 
 ## Requirements
 
-* Python 3.8 or higher
-* `pip` package manager
+- Python 3.8 or higher
+- `pip` package manager
 
 ## Screenshots
 
@@ -19,7 +19,7 @@ A simple Python project for scanning and analyzing CVs using the Gemini API.
 ```bash
 git clone https://github.com/abdullaabdullazade/aicvscanneer
 cd aicvscanneer
-```
+````
 
 2. **Install dependencies:**
 
@@ -41,7 +41,7 @@ API_KEY=your_api_key_here
 python main.py
 ```
 
-Open your browser and navigate to:
+Then open your browser and navigate to:
 
 ```
 http://localhost:5000
@@ -52,4 +52,3 @@ http://localhost:5000
 * Ensure your API key is correctly set in the `.env` file.
 * After running `main.py`, the application will be accessible at `localhost:5000`.
 * You can now upload CVs and analyze them using the AI-powered scanner.
-
