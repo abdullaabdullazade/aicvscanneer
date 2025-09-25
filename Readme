@@ -1,41 +1,55 @@
-# AI CV Scanner
+````markdown
+# 📄 AI CV Scanner
 
-A simple Python project for scanning and analyzing CVs using the Gemini API.
+🚀 An AI-powered CV analyzer.  
+This project uses the **Gemini API** to read, analyze, and extract useful insights from CVs.
 
-## Requirements
+---
 
-- Python 3.8 or higher
-- `pip` package manager
+## 🛠️ Technologies
 
-## Screenshots
+- 🐍 Python 3.8+  
+- ⚙️ Flask (backend)  
+- 🤖 Gemini API (AI engine)  
+- 📦 pip (package manager)  
 
-![Screenshot 1](screenshots/1.png)
-![Screenshot 2](screenshots/2.png)
+---
 
-## Setup
+## 📸 Screenshots
 
-1. **Clone the repository:**
+<p align="center">
+  <img src="screenshots/1.png" width="400" />
+  <img src="screenshots/2.png" width="400" />
+</p>
+
+---
+
+## ⚡ Setup
+
+1️⃣ **Clone the repository:**
 
 ```bash
 git clone https://github.com/abdullaabdullazade/aicvscanneer
 cd aicvscanneer
 ````
 
-2. **Install dependencies:**
+2️⃣ **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Create a `.env` file** in the project root and add your Gemini API key:
+3️⃣ **Create a `.env` file** in the project root and add your Gemini API key:
 
-```
+```env
 API_KEY=your_api_key_here
 ```
 
-> **Note:** You can get your API key from your [Gemini account](https://aistudio.google.com/api-keys).
+> 🔑 You can get your API key from your [Gemini account](https://aistudio.google.com/api-keys).
 
-## Running the Project
+---
+
+## ▶️ Run the Project
 
 ```bash
 python main.py
@@ -43,12 +57,20 @@ python main.py
 
 Then open your browser and navigate to:
 
-```
-http://localhost:5000
-```
+👉 [http://localhost:5000](http://localhost:5000)
 
-## Usage
+---
 
-* Ensure your API key is correctly set in the `.env` file.
-* After running `main.py`, the application will be accessible at `localhost:5000`.
-* You can now upload CVs and analyze them using the AI-powered scanner.
+## 📂 Usage
+
+* Make sure your API key is correctly set in the `.env` file.
+* After running `main.py`, the app will be available at **localhost:5000**.
+* Upload CVs and analyze them with the **AI CV Scanner**.
+
+---
+
+## ⭐ Support the Project
+
+If you find this project helpful, consider giving it a ⭐ on GitHub!
+
+```
